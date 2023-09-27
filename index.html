@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMDB Movies</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <script
+      src="https://kit.fontawesome.com/d5635d350d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="header-container">
+        <div>
+          <h1>Search your movies</h1>
+        </div>     
+        <div class="header-link">
+            <span><a href="favorite.html">Favrote list</a></span>
+        </div>   
+      </div>
+      <div class="search-box">
+        <input
+          type="text"
+          placeholder="Type movie name here..."
+          class="search-bar"
+          id="Input"
+        />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="movie-list-container"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
